@@ -1,0 +1,7 @@
+The result has been generated thanks to a convolution neural network with one embedding layer, one convolution layer, one dropout layer and one linear layer. The output layer has one neuron, since it is a binary classification. 
+
+The model has been optimised with a stochastic gradient descent with a learning rate of 0.05 and the a momentum of 0.5. Those values were found thanks to a grid search.
+
+The used features are the indices of each word in a dictionary.
+
+I only used the given training data to train the model. Moreover, the data has been preprocessed mainly by tokenising, removing stopwords and lemmatising. 
